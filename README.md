@@ -1,4 +1,4 @@
-#EMDC: A Simple SQL-like Database in C++
+**EMDC: A Simple SQL-like Database in C++**
 Overview
 EMDC is a simple SQL-like database program written in C++. It allows users to create and manipulate tables of data using a familiar SQL-like syntax. EMDC includes support for defining the table schema, inserting rows at the beginning or end of the table, and performing basic queries such as selecting, updating, and deleting rows. It also includes support for joining multiple tables based on a given condition.
 

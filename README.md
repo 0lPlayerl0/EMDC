@@ -1,6 +1,8 @@
-*![Banner](https://github.com/0lPlayerl0/EMDC/assets/84262516/c0eac0f8-ce58-4794-a9c3-3943ec59952e)
+<p align="center">
+  ![Banner](https://github.com/0lPlayerl0/EMDC/assets/84262516/c0eac0f8-ce58-4794-a9c3-3943ec59952e)
+</p>
 
-#*EMDC: A Simple SQL-like Database in C++**
+# *EMDC: A Simple SQL-like Database in C++**
 
 _________________
 

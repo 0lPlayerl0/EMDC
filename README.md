@@ -1,7 +1,6 @@
 <p align="center">
-  <img src="(https://github.com/0lPlayerl0/EMDC/assets/84262516/c0eac0f8-ce58-4794-a9c3-3943ec59952e" alt="Banner" style="display: block; margin: auto;">
+  <img src="https://github.com/0lPlayerl0/EMDC/assets/84262516/afbe5bf8-dead-4d9b-9651-613ca7885d12" alt="Banner" style="display: block; margin: auto;">
 </p>
-
 
 # **EMDC: A Simple SQL-like Database in C++**
 

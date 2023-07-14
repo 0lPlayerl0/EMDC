@@ -1,19 +1,20 @@
 <p align="center">
-  ![Banner](https://github.com/0lPlayerl0/EMDC/assets/84262516/c0eac0f8-ce58-4794-a9c3-3943ec59952e)
+  <img src="(https://github.com/0lPlayerl0/EMDC/assets/84262516/c0eac0f8-ce58-4794-a9c3-3943ec59952e" alt="Banner" style="display: block; margin: auto;">
 </p>
 
-# *EMDC: A Simple SQL-like Database in C++**
+
+# **EMDC: A Simple SQL-like Database in C++**
 
 _________________
 
-##Overview
+## Overview
 EMDC is a simple SQL-like database program written in C++. It allows users to create and manipulate tables of data using a familiar SQL-like syntax. EMDC includes support for defining the table schema, inserting rows at the beginning or end of the table, and performing basic queries such as selecting, updating, and deleting rows. It also includes support for joining multiple tables based on a given condition.
 
 One of the advanced features of EMDC is its support for multi-threading. This allows the program to perform database operations in parallel, potentially improving performance on multi-core systems. EMDC uses a mutex to synchronize access to the table data and ensure that multiple threads can safely perform operations on the table at the same time.
 
 Another advanced feature of EMDC is its support for saving and loading the database to/from a file. This allows users to persist their data and continue working with it even after the program has been closed. EMDC uses a simple encryption algorithm to protect the data when saving it to a file, adding an extra layer of security.
 
-##Usage
+## Usage
 To use EMDC, you can create instances of the Table class and use its methods to manipulate data in your tables. Here is an example that demonstrates how to create two tables, insert data into them, perform some basic queries, and save and load data from files:
 ```cpp
 #include "EMDC.hpp"
@@ -62,7 +63,7 @@ This code creates two tables named table1 and table2, inserts some data into the
 
 When using EMDC, it is recommended to follow best practices for working with databases, such as normalizing your data, using appropriate data types and constraints, and properly indexing your tables for efficient querying.
 
-##API Reference
+## API Reference
 The following is a brief reference of the main classes and methods in EMDC:
 
 Table: The Table class represents a table in the database. It has a constructor that accepts a list of column names, allowing you to define the schema of the table when creating it.
@@ -83,5 +84,5 @@ save_to_file: The save_to_file method of the Table class allows you to save the 
 
 load_from_file: The load_from_file method of the Table class allows you to load data into a table from a file. It accepts a folder path, a filename, and an encryption key as arguments.
 
-##Conclusion
+## Conclusion
 EMDC is a powerful and flexible tool for working with tabular data in C++. Its familiar SQL-like syntax and advanced features make it an attractive option for users who need to manipulate and analyze data in a simple and efficient manner. With its support for multi-threading and file-based persistence, EMDC is well-suited for a wide range of data processing tasks.

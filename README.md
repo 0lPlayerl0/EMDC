@@ -13,8 +13,14 @@ One of the advanced features of EMDC is its support for multi-threading. This al
 
 Another advanced feature of EMDC is its support for saving and loading the database to/from a file. This allows users to persist their data and continue working with it even after the program has been closed. EMDC uses a simple encryption algorithm to protect the data when saving it to a file, adding an extra layer of security.
 
-## To Do
-A secure encryption method
+## compileing
+```
+g++ -std=c++17 EMDCR.cpp -o EMDCR.exe -lstdc++fs
+```
+```
+g++ -shared -o EMDC.dll EMDC.Hpp -lstdc++fs
+```
+
 ## Usage
 To use EMDC, you can create instances of the Table class and use its methods to manipulate data in your tables. Here is an example that demonstrates how to create two tables, insert data into them, perform some basic queries, and save and load data from files:
 ```cpp
